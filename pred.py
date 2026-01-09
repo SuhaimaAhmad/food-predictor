@@ -3,14 +3,12 @@ This Python file contains a function `predict_all` that takes
 in the name of a CSV file, and returns a list of predictions.
 """
 
-# basic python imports are permitted
 import sys
 import csv
 import random
 import numpy as np
 import pandas as pd
 import re
-import csv
 
 def predict(x):
     """
@@ -5211,4 +5209,5 @@ WEIGHTS = [np.array([[-8.01702554e-01,  1.21515393e+00, -1.42424857e+00,
 
 if __name__ == '__main__':
     predict_all("../../Downloads/cleaned_data_combined.csv")
+
 
