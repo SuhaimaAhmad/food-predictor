@@ -1,15 +1,6 @@
 """
-This Python file is example of how your `pred.py` script should
-look. Your file should contain a function `predict_all` that takes
+This Python file contains a function `predict_all` that takes
 in the name of a CSV file, and returns a list of predictions.
-
-Your `pred.py` script can use different methods to process the input
-data, but the format of the input it takes and the output your script produces should be the same.
-
-Here's an example of how your script may be used in our test file:
-
-    from example_pred import predict_all
-    predict_all("example_test_set.csv")
 """
 
 # basic python imports are permitted
@@ -24,7 +15,6 @@ import csv
 def predict(x):
     """
     Helper function to make prediction for a given input x.
-    This code is here for demonstration purposes only.
     """
     labels = ['Pizza', 'Shawarma', 'Sushi']
 
@@ -5221,3 +5211,4 @@ WEIGHTS = [np.array([[-8.01702554e-01,  1.21515393e+00, -1.42424857e+00,
 
 if __name__ == '__main__':
     predict_all("../../Downloads/cleaned_data_combined.csv")
+
